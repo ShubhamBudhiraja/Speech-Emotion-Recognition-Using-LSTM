@@ -18,7 +18,10 @@ On the route to develop an effective model to recognize the emotion of a particu
 12. Female neutral
 
 The purpose of feature extraction is to analyse and compare the voice signals falling under these 12 categories. Speech analysis for both the genders is equally important due to the difference between amplitude in their voice. Samples from both the datasets are analysed based upon the frequency and amplitude. For example, when the speaker is angry, the amplitude of his/her voice is too high while it is generally too low when he/she is sad or depressed.
-Datasets Link
+
+Datasets Link:
+CREMA-D : https://www.kaggle.com/ejlok1/cremad
+SAVEE   : https://www.kaggle.com/barelydedicated/savee-database
 
 # Experimental Analysis 
 A function evaluate_model() is defined that takes the train and test dataset, fits a model on the training dataset, evaluates it on the test dataset, and returns an estimate ofthe model’s performance. A single LSTM layer is used followed by a dropout layer with an intention of reducing over-fitting of the model to the training data. Then a dense fully connected layer is used to interpret the features extracted by the LSTM hidden layer, before a final output layer is used to make
