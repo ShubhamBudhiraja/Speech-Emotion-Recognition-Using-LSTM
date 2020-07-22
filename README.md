@@ -16,6 +16,7 @@ On the route to develop an effective model to recognize the emotion of a particu
 10. Female fear
 11. Female happy 
 12. Female neutral
+
 The purpose of feature extraction is to analyse and compare the voice signals falling under these 12 categories. Speech analysis for both the genders is equally important due to the difference between amplitude in their voice. Samples from both the datasets are analysed based upon the frequency and amplitude. For example, when the speaker is angry, the amplitude of his/her voice is too high while it is generally too low when he/she is sad or depressed.
 Datasets Link
 
