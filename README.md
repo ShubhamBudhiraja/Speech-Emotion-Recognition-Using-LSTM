@@ -3,7 +3,20 @@ Speech is a rich and effective way of transmitting information among one another
 This project aims to predict human emotions using LSTM (Long Short Term Memory). It is an aritficial Recurrent Neural Network architecture used in the firld of deep learning. An LSTM has feedback connections. It can, not only process single data points (such as images) but also entire sequences of data (such as audio or video).
 
 # Datasets
-On the route to develop an effective model to recognize the emotion of a particular speech segment, two existing datasets are combined and taken as base datasets. CREMA-D (Crowd Sourced Emotional Multimodal Actors Dataset) has 7,422 original clips from 91 actors while SAVEE (Survey Audio- Visual Expressed Emotion) has 480 audio files. The audio files in the datasets are classified among twelve categories namely, male sad, male angry, male disgust, male fear, male happy, male neutral, female sad, female angry, female disgust, female fear, female happy and female neutral. The purpose of feature extraction is to analyse and compare the voice signals falling under these 12 categories. Speech analysis for both the genders is equally important due to the difference between amplitude in their voice. Samples from both the datasets are analysed based upon the frequency and amplitude. For example, when the speaker is angry, the amplitude of his/her voice is too high while it is generally too low when he/she is sad or depressed.
+On the route to develop an effective model to recognize the emotion of a particular speech segment, two existing datasets are combined and taken as base datasets. CREMA-D (Crowd Sourced Emotional Multimodal Actors Dataset) has 7,422 original clips from 91 actors while SAVEE (Survey Audio- Visual Expressed Emotion) has 480 audio files. The audio files in the datasets are classified among twelve categories as:
+ 1. Male Sad
+ 2. Male angry
+ 3. Male disgust
+ 4. Male fear
+ 5. Male happy
+ 6. Male neutral
+ 7. Female sad
+ 8. Female angry
+ 9. Female disgust
+10. Female fear
+11. Female happy 
+12. Female neutral
+The purpose of feature extraction is to analyse and compare the voice signals falling under these 12 categories. Speech analysis for both the genders is equally important due to the difference between amplitude in their voice. Samples from both the datasets are analysed based upon the frequency and amplitude. For example, when the speaker is angry, the amplitude of his/her voice is too high while it is generally too low when he/she is sad or depressed.
 Datasets Link
 
 # Experimental Analysis 
