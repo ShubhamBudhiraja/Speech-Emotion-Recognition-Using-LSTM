@@ -1,5 +1,4 @@
 # Speech Emotion Recognition Using LSTM
-Speech is a rich and effective way of transmitting information among one another. Speech analysis can be of two types: linguistic and emotional. Virtual Personal Assistants like Siri and Alexa have attracted a remarkable amount of audience as a virtual helping hand to get things done quickly with ease. But still they lack the ability to analyse the emotional state and react according to that. This is why the need for emotion analysis arises. Through machine learning techniques, an effective model can be developed to predict emotions using the concept of Neural Networks.
 This project aims to predict human emotions using LSTM (Long Short Term Memory). It is an aritficial Recurrent Neural Network architecture used in the firld of deep learning. An LSTM has feedback connections. It can, not only process single data points (such as images) but also entire sequences of data (such as audio or video).
 
 # Datasets
